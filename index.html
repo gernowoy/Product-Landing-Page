@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+
+</head>
+<body id="body">
+  <header class="header" id="header">
+    <div class="logo-wrap">
+      <a href="#"><img class="logo" id="header-img" src="assets/img/logo.png" alt="logo"></a>
+    </div>
+    <nav class="nav-container" id="nav-bar">
+      <ul class="nav-list">
+       <li class="nav-list__item"><a class="nav-link" href="#body">Home</a></li>
+       <li class="nav-list__item"><a class="nav-link" href="#section-main">Product</a></li>
+       <li class="nav-list__item"><a class="nav-link" href="#section-explain">Faq</a></li>
+       <li class="nav-list__item"><a class="nav-link" href="#footer">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<!-- END OF HEADER -->
+
+  <main>
+    <section class="section-greet">
+      <p class="text text-description">Food app</p>
+      <h1>Why stay hungry when <br> you can order form Bella Onojie</h1>
+      <p class="text text-download">Download the bella onoje’s food app now on</p>
+      <div class="button-wrap">
+        <button class="button section-greet__button">Playstore</button>
+        <button class="button section-greet__button">App store</button>
+      </div>
+    </section>
+
+    <aside class="section-main" id="section-main">
+      <img class="section-main__img" src="assets/img/main.png" alt="two cells">
+      <div class="underline"></div>
+    </aside>
+    <section class="section-explain" id="section-explain">
+      <h2 class="title section-explain__title">How the app works</h2>
+      <div class="section-explain__wrap">
+        <img class="cell-img" src="assets/img/login.png" alt="cell"> 
+        <div class="section-explain__wrap-text">
+          <p class="text section-explain__text-top">Create an account</p>
+          <h2 class="title section-explain__title-card">Create/login to an existing account to get started</h2>
+          <p class="text section-explain__text-bottom">An account is created with your email and a desired password</p>
+      </div>
+      </div>
+    </section>
+    <section class="section-explain">
+      <div class="section-explain__wrap">
+        <div class="section-explain__wrap-text">
+          <p class="text section-explain__text-top">Explore varieties</p>
+          <h2 class="title section-explain__title-card">Shop for your favorites meal as e dey hot.</h2>
+          <p class="text section-explain__text-bottom">Shop for your favorite meals or drinks and enjoy while doing it.</p>
+        </div>
+        <img class="cell-img" src="assets/img/shop.png" alt="cell"> 
+      </div>
+    </section>
+    <section class="section-explain">
+      <div class="section-explain__wrap">
+          <img class="cell-img" src="assets/img/checkout.png" alt="cell"> 
+          <div class="section-explain__wrap-text">
+            <p class="text section-explain__text-top">Checkout</p>
+            <h2 class="title section-explain__title-card">When you done check out and get it delivered.</h2>
+            <p class="text section-explain__text-bottom">When you done check out and get it delivered with ease.</p>
+          </div>
+      </div>
+    </section>
+    <aside class="section-video">
+      <video id="video" src="assets/video/samsung-video.mp4" controls></video>
+    </aside>
+    <section class="section-download">
+      <h2 class="title section-download__title">Download the app now</h2>
+      <p class="text section-download__text">Available on your favorite store. Start your premium experience now</p>
+      <button class="button section-download__button">Playstore</button>
+      <button class="button section-download__button">App store</button>
+      <form class="form-mail" id="form" action="https://www.freecodecamp.com/email-submit" target="_blank">
+        <label for="email" class="text section-download__text form-text">Type your Email to subscribe our new customer discount </label>
+        <input class="input-mail" type="email" id="email" placeholder="example@email.com" required>
+        <input type="submit" id="submit" class="button button-submit" value="Submit">
+      </form>
+    </section>
+  </main>
+  <footer class="footer" id="footer">
+    <div class="logo-wrap">
+      <a href="#"><img class="logo" src="assets/img/logo.png" alt="logo"></a>
+    </div>
+    <address class="social-media">
+      <a href="https://twitter.com/">
+        <img src="assets/svg/twitter.svg" alt="twitter">
+      </a>
+      <a href="https://facebook.com/">
+        <img src="assets/svg/facebook.svg" alt="facebook">
+      </a>
+      <a href="https://instagram.com/">
+        <img src="assets/svg/instagram.svg" alt="instagramm">
+      </a>
+    </address>
+    <p class="footer__text">Copywright 2021 Bella Onojie.com</p>
+  </footer>
+  
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
